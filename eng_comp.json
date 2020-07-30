@@ -1,50 +1,56 @@
 {
-  "\u00c1lgebra Linear": {
+  "algebra_linear": {
+    "nome": "Álgebra Linear",
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Algoritmos e Estruturas de Dados I": {
+  "algoritmos_e_estruturas_de_dados_i": {
+    "nome": "Algoritmos e Estruturas de Dados I",
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Algoritmos e Estruturas de Dados II": {
+  "algoritmos_e_estruturas_de_dados_ii": {
+    "nome": "Algoritmos e Estruturas de Dados II",
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Arquitetura e Organiza\u00e7\u00e3o de Computadores I": {
+  "arquitetura_e_organizacao_de_computadores_i": {
+    "nome": "Arquitetura e Organização de Computadores I",
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Arquitetura e Organiza\u00e7\u00e3o de Computadores II": {
+  "arquitetura_e_organizacao_de_computadores_ii": {
+    "nome": "Arquitetura e Organização de Computadores II",
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Arquitetura e Organiza\u00e7\u00e3o de Computadores III": {
+  "arquitetura_e_organizacao_de_computadores_iii": {
+    "nome": "Arquitetura e Organização de Computadores III",
     "horas": {
       "teoria": 60,
       "pratica": 0,
@@ -53,7 +59,8 @@
     "creditos": 4,
     "natureza": "Optativa"
   },
-  "Automa\u00e7\u00e3o de Processos Cont\u00ednuos": {
+  "automacao_de_processos_continuos": {
+    "nome": "Automação de Processos Contínuos",
     "horas": {
       "teoria": 60,
       "pratica": 0,
@@ -62,7 +69,8 @@
     "creditos": 4,
     "natureza": "Optativa"
   },
-  "Automa\u00e7\u00e3o de Processos de Manufatura": {
+  "automacao_de_processos_de_manufatura": {
+    "nome": "Automação de Processos de Manufatura",
     "horas": {
       "teoria": 30,
       "pratica": 30,
@@ -71,16 +79,18 @@
     "creditos": 4,
     "natureza": "Optativa"
   },
-  "Banco de Dados I": {
+  "banco_de_dados_i": {
+    "nome": "Banco de Dados I",
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Banco de Dados II": {
+  "banco_de_dados_ii": {
+    "nome": "Banco de Dados II",
     "horas": {
       "teoria": 60,
       "pratica": 0,
@@ -89,52 +99,58 @@
     "creditos": 4,
     "natureza": "Optativa"
   },
-  "C\u00e1lculo I": {
+  "calculo_i": {
+    "nome": "Cálculo I",
     "horas": {
       "teoria": 90,
       "pratica": 0,
       "total": 90
     },
     "creditos": 6,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "C\u00e1lculo II": {
+  "calculo_ii": {
+    "nome": "Cálculo II",
     "horas": {
       "teoria": 90,
       "pratica": 0,
       "total": 90
     },
     "creditos": 6,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "C\u00e1lculo III": {
+  "calculo_iii": {
+    "nome": "Cálculo III",
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "C\u00e1lculo IV": {
+  "calculo_iv": {
+    "nome": "Cálculo IV",
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Compiladores": {
+  "compiladores": {
+    "nome": "Compiladores",
     "horas": {
       "teoria": 30,
       "pratica": 30,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Computa\u00e7\u00e3o Evolucion\u00e1ria": {
+  "computacao_evolucionaria": {
+    "nome": "Computação Evolucionária",
     "horas": {
       "teoria": 30,
       "pratica": 30,
@@ -143,43 +159,48 @@
     "creditos": 4,
     "natureza": "Optativa"
   },
-  "Computa\u00e7\u00e3o Gr\u00e1fica": {
+  "computacao_grafica": {
+    "nome": "Computação Gráfica",
     "horas": {
       "teoria": 30,
       "pratica": 30,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Contexto Social e Engenharia de Computa\u00e7\u00e3o": {
+  "contexto_social_e_engenharia_de_computacao": {
+    "nome": "Contexto Social e Engenharia de Computação",
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Controle de Sistemas Din\u00e2micos": {
+  "controle_de_sistemas_dinamicos": {
+    "nome": "Controle de Sistemas Dinâmicos",
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Controle Digital de Sistemas Din\u00e2micos": {
+  "controle_digital_de_sistemas_dinamicos": {
+    "nome": "Controle Digital de Sistemas Dinâmicos",
     "horas": {
       "teoria": 30,
       "pratica": 30,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Educa\u00e7\u00e3o Corporal e Forma\u00e7\u00e3o Humana": {
+  "educacao_corporal_e_formacao_humana": {
+    "nome": "Educação Corporal e Formação Humana",
     "horas": {
       "teoria": 0,
       "pratica": 30,
@@ -188,25 +209,18 @@
     "creditos": 2,
     "natureza": "Optativa"
   },
-  "Engenharia de Software I": {
+  "engenharia_de_software_i": {
+    "nome": "Engenharia de Software I",
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Engenharia de Software II": {
-    "horas": {
-      "teoria": 60,
-      "pratica": 0,
-      "total": 60
-    },
-    "creditos": 4,
-    "natureza": "Optativa"
-  },
-  "Estat\u00edstica": {
+  "engenharia_de_software_ii": {
+    "nome": "Engenharia de Software II",
     "horas": {
       "teoria": 60,
       "pratica": 0,
@@ -215,70 +229,88 @@
     "creditos": 4,
     "natureza": "Optativa"
   },
-  "Filosofia da Tecnologia": {
+  "estatistica": {
+    "nome": "Estatística",
+    "horas": {
+      "teoria": 60,
+      "pratica": 0,
+      "total": 60
+    },
+    "creditos": 4,
+    "natureza": "Optativa"
+  },
+  "filosofia_da_tecnologia": {
+    "nome": "Filosofia da Tecnologia",
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "F\u00edsica Experimental I": {
+  "fisica_experimental_i": {
+    "nome": "Física Experimental I",
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "F\u00edsica Experimental II": {
+  "fisica_experimental_ii": {
+    "nome": "Física Experimental II",
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "F\u00edsica I": {
+  "fisica_i": {
+    "nome": "Física I",
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "F\u00edsica II": {
+  "fisica_ii": {
+    "nome": "Física II",
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "F\u00edsica III": {
+  "fisica_iii": {
+    "nome": "Física III",
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Geometria Anal\u00edtica e \u00c1lgebra Vetorial": {
+  "geometria_analitica_e_algebra_vetorial": {
+    "nome": "Geometria Analítica e Álgebra Vetorial",
     "horas": {
       "teoria": 90,
       "pratica": 0,
       "total": 90
     },
     "creditos": 6,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Gest\u00e3o Ambiental": {
+  "gestao_ambiental": {
+    "nome": "Gestão Ambiental",
     "horas": {
       "teoria": 30,
       "pratica": 0,
@@ -287,25 +319,18 @@
     "creditos": 2,
     "natureza": "Optativa"
   },
-  "Ingl\u00eas Instrumental I": {
+  "ingles_instrumental_i": {
+    "nome": "Inglês Instrumental I",
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Ingl\u00eas Instrumental II": {
-    "horas": {
-      "teoria": 0,
-      "pratica": 30,
-      "total": 30
-    },
-    "creditos": 2,
-    "natureza": "Optativa"
-  },
-  "Ingl\u00eas Instrumental III": {
+  "ingles_instrumental_ii": {
+    "nome": "Inglês Instrumental II",
     "horas": {
       "teoria": 0,
       "pratica": 30,
@@ -314,7 +339,8 @@
     "creditos": 2,
     "natureza": "Optativa"
   },
-  "Ingl\u00eas Instrumental IV": {
+  "ingles_instrumental_iii": {
+    "nome": "Inglês Instrumental III",
     "horas": {
       "teoria": 0,
       "pratica": 30,
@@ -323,7 +349,18 @@
     "creditos": 2,
     "natureza": "Optativa"
   },
-  "Instrumenta\u00e7\u00e3o": {
+  "ingles_instrumental_iv": {
+    "nome": "Inglês Instrumental IV",
+    "horas": {
+      "teoria": 0,
+      "pratica": 30,
+      "total": 30
+    },
+    "creditos": 2,
+    "natureza": "Optativa"
+  },
+  "instrumentacao": {
+    "nome": "Instrumentação",
     "horas": {
       "teoria": 30,
       "pratica": 0,
@@ -332,25 +369,28 @@
     "creditos": 2,
     "natureza": "Optativa"
   },
-  "Intelig\u00eancia Artificial": {
+  "inteligencia_artificial": {
+    "nome": "Inteligência Artificial",
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Intelig\u00eancia Computacional I": {
+  "inteligencia_computacional_i": {
+    "nome": "Inteligência Computacional I",
     "horas": {
       "teoria": 60,
       "pratica": 30,
       "total": 90
     },
     "creditos": 6,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Intelig\u00eancia Computacional II": {
+  "inteligencia_computacional_ii": {
+    "nome": "Inteligência Computacional II",
     "horas": {
       "teoria": 30,
       "pratica": 30,
@@ -359,7 +399,8 @@
     "creditos": 4,
     "natureza": "Optativa"
   },
-  "Intelig\u00eancia Computacional para Otimiza\u00e7\u00e3o": {
+  "inteligencia_computacional_para_otimizacao": {
+    "nome": "Inteligência Computacional para Otimização",
     "horas": {
       "teoria": 60,
       "pratica": 0,
@@ -368,25 +409,28 @@
     "creditos": 4,
     "natureza": "Optativa"
   },
-  "Intera\u00e7\u00e3o Humano-Computador": {
+  "interacao_humano-computador": {
+    "nome": "Interação Humano-Computador",
     "horas": {
       "teoria": 45,
       "pratica": 15,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Introdu\u00e7\u00e3o \u00e0 Administra\u00e7\u00e3o": {
+  "introducao_a_administracao": {
+    "nome": "Introdução à Administração",
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Introdu\u00e7\u00e3o \u00e0 Economia": {
+  "introducao_a_economia": {
+    "nome": "Introdução à Economia",
     "horas": {
       "teoria": 30,
       "pratica": 0,
@@ -395,16 +439,18 @@
     "creditos": 2,
     "natureza": "Optativa"
   },
-  "Introdu\u00e7\u00e3o \u00e0 Engenharia de Computa\u00e7\u00e3o": {
+  "introducao_a_engenharia_de_computacao": {
+    "nome": "Introdução à Engenharia de Computação",
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 3,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Introdu\u00e7\u00e3o \u00e0 F\u00edsica Moderna": {
+  "introducao_a_fisica_moderna": {
+    "nome": "Introdução à Física Moderna",
     "horas": {
       "teoria": 60,
       "pratica": 0,
@@ -413,16 +459,18 @@
     "creditos": 4,
     "natureza": "Optativa"
   },
-  "Introdu\u00e7\u00e3o \u00e0 Sociologia": {
+  "introducao_a_sociologia": {
+    "nome": "Introdução à Sociologia",
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Introdu\u00e7\u00e3o ao Direito": {
+  "introducao_ao_direito": {
+    "nome": "Introdução ao Direito",
     "horas": {
       "teoria": 30,
       "pratica": 0,
@@ -431,88 +479,48 @@
     "creditos": 2,
     "natureza": "Optativa"
   },
-  "Laborat\u00f3rio de Algoritmos e Estruturas de Dados I": {
+  "laboratorio_de_algoritmos_e_estruturas_de_dados_i": {
+    "nome": "Laboratório de Algoritmos e Estruturas de Dados I",
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Laborat\u00f3rio de Algoritmos e Estruturas de Dados II": {
+  "laboratorio_de_algoritmos_e_estruturas_de_dados_ii": {
+    "nome": "Laboratório de Algoritmos e Estruturas de Dados II",
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Laborat\u00f3rio de Arquitetura e Organiza\u00e7\u00e3o de Computadores I": {
+  "laboratorio_de_arquitetura_e_organizacao_de_computadores_i": {
+    "nome": "Laboratório de Arquitetura e Organização de Computadores I",
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Laborat\u00f3rio de Arquitetura e Organiza\u00e7\u00e3o de Computadores II": {
+  "laboratorio_de_arquitetura_e_organizacao_de_computadores_ii": {
+    "nome": "Laboratório de Arquitetura e Organização de Computadores II",
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Laborat\u00f3rio de Automa\u00e7\u00e3o de Processos Cont\u00ednuos": {
-    "horas": {
-      "teoria": 0,
-      "pratica": 30,
-      "total": 30
-    },
-    "creditos": 2,
-    "natureza": "Optativa"
-  },
-  "Laborat\u00f3rio de Banco de Dados I": {
-    "horas": {
-      "teoria": 0,
-      "pratica": 30,
-      "total": 30
-    },
-    "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
-  },
-  "Laborat\u00f3rio de Controle de Sistemas Din\u00e2micos": {
-    "horas": {
-      "teoria": 0,
-      "pratica": 30,
-      "total": 30
-    },
-    "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
-  },
-  "Laborat\u00f3rio de Controle Digital de Sistemas Din\u00e2micos": {
-    "horas": {
-      "teoria": 0,
-      "pratica": 30,
-      "total": 30
-    },
-    "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
-  },
-  "Laborat\u00f3rio de Engenharia de Software I": {
-    "horas": {
-      "teoria": 0,
-      "pratica": 30,
-      "total": 30
-    },
-    "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
-  },
-  "Laborat\u00f3rio de Instrumenta\u00e7\u00e3o": {
+  "laboratorio_de_automacao_de_processos_continuos": {
+    "nome": "Laboratório de Automação de Processos Contínuos",
     "horas": {
       "teoria": 0,
       "pratica": 30,
@@ -521,25 +529,48 @@
     "creditos": 2,
     "natureza": "Optativa"
   },
-  "Laborat\u00f3rio de Intelig\u00eancia Artificial": {
+  "laboratorio_de_banco_de_dados_i": {
+    "nome": "Laboratório de Banco de Dados I",
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Laborat\u00f3rio de Linguagens de Programa\u00e7\u00e3o": {
+  "laboratorio_de_controle_de_sistemas_dinamicos": {
+    "nome": "Laboratório de Controle de Sistemas Dinâmicos",
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Laborat\u00f3rio de Microprocessadores e Microcontroladores": {
+  "laboratorio_de_controle_digital_de_sistemas_dinamicos": {
+    "nome": "Laboratório de Controle Digital de Sistemas Dinâmicos",
+    "horas": {
+      "teoria": 0,
+      "pratica": 30,
+      "total": 30
+    },
+    "creditos": 2,
+    "natureza": "Obrigatória"
+  },
+  "laboratorio_de_engenharia_de_software_i": {
+    "nome": "Laboratório de Engenharia de Software I",
+    "horas": {
+      "teoria": 0,
+      "pratica": 30,
+      "total": 30
+    },
+    "creditos": 2,
+    "natureza": "Obrigatória"
+  },
+  "laboratorio_de_instrumentacao": {
+    "nome": "Laboratório de Instrumentação",
     "horas": {
       "teoria": 0,
       "pratica": 30,
@@ -548,34 +579,68 @@
     "creditos": 2,
     "natureza": "Optativa"
   },
-  "Laborat\u00f3rio de Modelagem e Desenvolvimento de Software": {
+  "laboratorio_de_inteligencia_artificial": {
+    "nome": "Laboratório de Inteligência Artificial",
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Laborat\u00f3rio de Programa\u00e7\u00e3o de Computadores I": {
+  "laboratorio_de_linguagens_de_programacao": {
+    "nome": "Laboratório de Linguagens de Programação",
+    "horas": {
+      "teoria": 0,
+      "pratica": 30,
+      "total": 30
+    },
+    "creditos": 2,
+    "natureza": "Obrigatória"
+  },
+  "laboratorio_de_microprocessadores_e_microcontroladores": {
+    "nome": "Laboratório de Microprocessadores e Microcontroladores",
+    "horas": {
+      "teoria": 0,
+      "pratica": 30,
+      "total": 30
+    },
+    "creditos": 2,
+    "natureza": "Optativa"
+  },
+  "laboratorio_de_modelagem_e_desenvolvimento_de_software": {
+    "nome": "Laboratório de Modelagem e Desenvolvimento de Software",
+    "horas": {
+      "teoria": 0,
+      "pratica": 30,
+      "total": 30
+    },
+    "creditos": 2,
+    "natureza": "Obrigatória"
+  },
+  "laboratorio_de_programacao_de_computadores_i": {
+    "nome": "Laboratório de Programação de Computadores I",
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Laborat\u00f3rio de Programa\u00e7\u00e3o de Computadores II": {
+  "laboratorio_de_programacao_de_computadores_ii": {
+    "nome": "Laboratório de Programação de Computadores II",
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Laborat\u00f3rio de Qu\u00edmica": {
+  "laboratorio_de_quimica": {
+    "nome": "Laboratório de Química",
     "horas": {
       "teoria": 0,
       "pratica": 30,
@@ -584,88 +649,98 @@
     "creditos": 2,
     "natureza": "Optativa"
   },
-  "Laborat\u00f3rio de Redes de Computadores I": {
+  "laboratorio_de_redes_de_computadores_i": {
+    "nome": "Laboratório de Redes de Computadores I",
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Laborat\u00f3rio de Sistemas Digitais para Computa\u00e7\u00e3o": {
+  "laboratorio_de_sistemas_digitais_para_computacao": {
+    "nome": "Laboratório de Sistemas Digitais para Computação",
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Laborat\u00f3rio de Sistemas Operacionais": {
+  "laboratorio_de_sistemas_operacionais": {
+    "nome": "Laboratório de Sistemas Operacionais",
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Linguagens de Programa\u00e7\u00e3o": {
+  "linguagens_de_programacao": {
+    "nome": "Linguagens de Programação",
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 4,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Linguagens Formais e Aut\u00f4matos": {
+  "linguagens_formais_e_automatos": {
+    "nome": "Linguagens Formais e Autômatos",
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Matem\u00e1tica Discreta": {
+  "matematica_discreta": {
+    "nome": "Matemática Discreta",
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Metodologia Cient\u00edfica": {
+  "metodologia_cientifica": {
+    "nome": "Metodologia Científica",
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Metodologia de Pesquisa": {
+  "metodologia_de_pesquisa": {
+    "nome": "Metodologia de Pesquisa",
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "M\u00e9todos Num\u00e9ricos Computacionais": {
+  "metodos_numericos_computacionais": {
+    "nome": "Métodos Numéricos Computacionais",
     "horas": {
       "teoria": 30,
       "pratica": 30,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "M\u00e9todos Num\u00e9ricos Computacionais Avan\u00e7ados": {
+  "metodos_numericos_computacionais_avancados": {
+    "nome": "Métodos Numéricos Computacionais Avançados",
     "horas": {
       "teoria": 30,
       "pratica": 30,
@@ -674,7 +749,8 @@
     "creditos": 4,
     "natureza": "Optativa"
   },
-  "Microprocessadores e Microcontroladores": {
+  "microprocessadores_e_microcontroladores": {
+    "nome": "Microprocessadores e Microcontroladores",
     "horas": {
       "teoria": 60,
       "pratica": 0,
@@ -683,7 +759,8 @@
     "creditos": 4,
     "natureza": "Optativa"
   },
-  "Modelagem de Sistemas Din\u00e2micos": {
+  "modelagem_de_sistemas_dinamicos": {
+    "nome": "Modelagem de Sistemas Dinâmicos",
     "horas": {
       "teoria": 60,
       "pratica": 0,
@@ -692,52 +769,58 @@
     "creditos": 4,
     "natureza": "Optativa"
   },
-  "Modelagem e Desenvolvimento de Software": {
+  "modelagem_e_desenvolvimento_de_software": {
+    "nome": "Modelagem e Desenvolvimento de Software",
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Organiza\u00e7\u00e3o Empresarial": {
+  "organizacao_empresarial": {
+    "nome": "Organização Empresarial",
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Orienta\u00e7\u00e3o de Est\u00e1gio Supervisionado": {
+  "orientacao_de_estagio_supervisionado": {
+    "nome": "Orientação de Estágio Supervisionado",
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Orienta\u00e7\u00e3o de Trabalho de Conclus\u00e3o de Curso I": {
+  "orientacao_de_trabalho_de_conclusao_de_curso_i": {
+    "nome": "Orientação de Trabalho de Conclusão de Curso I",
     "horas": {
       "teoria": 0,
       "pratica": 15,
       "total": 15
     },
     "creditos": 1,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Orienta\u00e7\u00e3o de Trabalho de Conclus\u00e3o de Curso II": {
+  "orientacao_de_trabalho_de_conclusao_de_curso_ii": {
+    "nome": "Orientação de Trabalho de Conclusão de Curso II",
     "horas": {
       "teoria": 0,
       "pratica": 15,
       "total": 15
     },
     "creditos": 1,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Otimiza\u00e7\u00e3o Combinat\u00f3ria": {
+  "otimizacao_combinatoria": {
+    "nome": "Otimização Combinatória",
     "horas": {
       "teoria": 60,
       "pratica": 0,
@@ -746,70 +829,78 @@
     "creditos": 4,
     "natureza": "Optativa"
   },
-  "Otimiza\u00e7\u00e3o I": {
+  "otimizacao_i": {
+    "nome": "Otimização I",
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Otimiza\u00e7\u00e3o II": {
+  "otimizacao_ii": {
+    "nome": "Otimização II",
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Portugu\u00eas Instrumental": {
+  "portugues_instrumental": {
+    "nome": "Português Instrumental",
     "horas": {
       "teoria": 15,
       "pratica": 15,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Princ\u00edpios de Comunica\u00e7\u00e3o de Dados": {
+  "principios_de_comunicacao_de_dados": {
+    "nome": "Princípios de Comunicação de Dados",
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Programa\u00e7\u00e3o de Computadores I": {
+  "programacao_de_computadores_i": {
+    "nome": "Programação de Computadores I",
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Programa\u00e7\u00e3o de Computadores II": {
+  "programacao_de_computadores_ii": {
+    "nome": "Programação de Computadores II",
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Psicologia Aplicada \u00e0s Organiza\u00e7\u00f5es": {
+  "psicologia_aplicada_as_organizacoes": {
+    "nome": "Psicologia Aplicada às Organizações",
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Qu\u00edmica": {
+  "quimica": {
+    "nome": "Química",
     "horas": {
       "teoria": 60,
       "pratica": 0,
@@ -818,16 +909,18 @@
     "creditos": 4,
     "natureza": "Optativa"
   },
-  "Redes de Computadores I": {
+  "redes_de_computadores_i": {
+    "nome": "Redes de Computadores I",
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Redes de Computadores II": {
+  "redes_de_computadores_ii": {
+    "nome": "Redes de Computadores II",
     "horas": {
       "teoria": 60,
       "pratica": 0,
@@ -836,7 +929,8 @@
     "creditos": 4,
     "natureza": "Optativa"
   },
-  "Rob\u00f3tica": {
+  "robotica": {
+    "nome": "Robótica",
     "horas": {
       "teoria": 30,
       "pratica": 30,
@@ -845,7 +939,8 @@
     "creditos": 4,
     "natureza": "Optativa"
   },
-  "Sistemas Bio-inspirados": {
+  "sistemas_bio-inspirados": {
+    "nome": "Sistemas Bio-inspirados",
     "horas": {
       "teoria": 60,
       "pratica": 0,
@@ -854,7 +949,8 @@
     "creditos": 4,
     "natureza": "Optativa"
   },
-  "Sistemas de Tempo Real": {
+  "sistemas_de_tempo_real": {
+    "nome": "Sistemas de Tempo Real",
     "horas": {
       "teoria": 30,
       "pratica": 30,
@@ -863,25 +959,28 @@
     "creditos": 4,
     "natureza": "Optativa"
   },
-  "Sistemas Digitais para Computa\u00e7\u00e3o": {
+  "sistemas_digitais_para_computacao": {
+    "nome": "Sistemas Digitais para Computação",
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Sistemas Distribu\u00eddos": {
+  "sistemas_distribuidos": {
+    "nome": "Sistemas Distribuídos",
     "horas": {
       "teoria": 30,
       "pratica": 30,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Sistemas Multim\u00eddia": {
+  "sistemas_multimidia": {
+    "nome": "Sistemas Multimídia",
     "horas": {
       "teoria": 30,
       "pratica": 30,
@@ -890,16 +989,18 @@
     "creditos": 4,
     "natureza": "Optativa"
   },
-  "Sistemas Operacionais": {
+  "sistemas_operacionais": {
+    "nome": "Sistemas Operacionais",
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigat\u00f3ria"
+    "natureza": "Obrigatória"
   },
-  "Vari\u00e1veis Complexas": {
+  "variaveis_complexas": {
+    "nome": "Variáveis Complexas",
     "horas": {
       "teoria": 60,
       "pratica": 0,
