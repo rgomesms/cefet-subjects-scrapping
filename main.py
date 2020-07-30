@@ -8,6 +8,8 @@ from bs4 import BeautifulSoup
 from unidecode import unidecode
 from tqdm import tqdm
 
+from constants import EMPTY_TABLES, ONE_LINE_TABLES, SUBJECTS_PER_SEMESTER
+
 
 def fetch_table_from_area(pdf_link: str, top: float, left: float, width: float, height: float) -> pd.DataFrame:
     bottom = top + height
@@ -44,51 +46,37 @@ def main():
                 # save the subject name.
                 cur_subject_dict['nome'] = subject_name
 
-                # if subject_name.startswith('Laboratório de Arquitetura'):
-                #     hours_table = fetch_table_from_area(href, top=101.45, left=36.5, width=263.16, height=36.34)
-                # else:
-                #     hours_table = fetch_table_from_area(href, top=87.89, left=33.24, width=269.26, height=42.14)
+                cur_subject_dict['periodo'] = None
+                for key, value in SUBJECTS_PER_SEMESTER.items():
+                    if subject_name in value:
+                        cur_subject_dict['periodo'] = key
 
-                # table_line = hours_table.iloc[0]
-                # cur_subject_dict['horas'] = {
-                #     'teoria': int(table_line['Teoria']),
-                #     'pratica': int(table_line['Prática']),
-                #     'total': int(table_line['Total'])
-                # }
+                if subject_name.startswith('Laboratório de Arquitetura'):
+                    hours_table = fetch_table_from_area(href, top=101.45, left=36.5, width=263.16, height=36.34)
+                else:
+                    hours_table = fetch_table_from_area(href, top=87.89, left=33.24, width=269.26, height=42.14)
 
-                # credits_table = fetch_table_from_area(href, top=69.34, left=299.81, width=262.48, height=60.08)
-                # table_line = credits_table.iloc[0]
-                # cur_subject_dict['creditos'] = int(table_line['CRÉDITOS'])
-                # cur_subject_dict['natureza'] = table_line['NATUREZA']
+                table_line = hours_table.iloc[0]
+                cur_subject_dict['horas'] = {
+                    'teoria': int(table_line['Teoria']),
+                    'pratica': int(table_line['Prática']),
+                    'total': int(table_line['Total'])
+                }
 
-                print(subject_name_key)
-                if subject_name in ['Cálculo I', 'Geometria Analítica e Álgebra Vetorial', 'Matemática Discreta',
-                                    'Português Instrumental', 'Introdução à Engenharia de Computação',
-                                    'Metodologia Científica', 'Educação Corporal e Formação Humana',
-                                    'Filosofia da Tecnologia', 'Inglês Instrumental I']:
+                credits_table = fetch_table_from_area(href, top=69.34, left=299.81, width=262.48, height=60.08)
+                table_line = credits_table.iloc[0]
+                cur_subject_dict['creditos'] = int(table_line['CRÉDITOS'])
+                cur_subject_dict['natureza'] = table_line['NATUREZA']
+
+                if subject_name in EMPTY_TABLES:
                     requisites_table = fetch_table_from_area(href, top=138.5, left=32.81, width=530.61, height=29.38)
-                elif subject_name == 'Laboratório de Automação de Processos Contínuos':
+                elif subject_name in ONE_LINE_TABLES:
                     requisites_table = fetch_table_from_area(href, top=132.02, left=32.55, width=530.87, height=43.19)
                 else:
                     requisites_table = fetch_table_from_area(href, top=132.06, left=32.6, width=537.09, height=68.6)
 
-                print(requisites_table)
                 cur_subject_dict['pre-requisitos'] = requisites_table['PRÉ-REQUISITOS'].dropna().to_list()
                 cur_subject_dict['co-requisitos'] = requisites_table['CO-REQUISITOS'].dropna().to_list()
-                # pre requisites
-                # for requisite in requisites_table['PRÉ-REQUISITOS'].dropna():
-                #     if requisite not in subject_names:
-                #         print('PRE REQUISITO PROBLEMA')
-                #         print(subject_name_key)
-                #         print(requisites_table)
-                #         print('~' * 100)
-                #
-                # for requisite in requisites_table['CO-REQUISITOS'].dropna():
-                #     if requisite not in subject_names:
-                #         print('CO REQUISITO PROBLEMA')
-                #         print(subject_name_key)
-                #         print(requisites_table)
-                #         print('~' * 100)
 
         with io.open('eng_comp.json', 'w', encoding='utf8') as file:
             json.dump(subjects_dict, file, ensure_ascii=False)

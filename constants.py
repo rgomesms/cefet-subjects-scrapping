@@ -1,0 +1,41 @@
+SUBJECTS_PER_SEMESTER = {
+    1: ['Cálculo I', 'Geometria Analítica e Álgebra Vetorial', 'Matemática Discreta', 'Programação de Computadores I',
+        'Laboratório de Programação de Computadores I'
+        'Introdução à Engenharia de Computação', 'Metodologia Científica', 'Português Instrumental'],
+    2: ['Cálculo II', 'Física I', 'Programação de Computadores II', 'Laboratório de Programação de Computadores II',
+        'Inglês Instrumental I', 'Computação Gráfica',
+        'Sistemas Digitais para Computação', 'Laboratório de Sistemas Digitais  para Computação',
+        'Filosofia da Tecnologia'],
+    3: ['Cálculo III', 'Física II', 'Física Experimental I', 'Algoritmos e Estruturas de Dados I',
+        'Laboratório de Algoritmos e Estruturas de Dados I',
+        'Métodos Numéricos Computacionais', 'Arquitetura e Organização de Computadores I',
+        'Laboratório de Arquitetura e Organização de Computadores I'],
+    4: ['Cálculo IV', 'Física III', 'Física Experimental II', 'Algoritmos e Estruturas de Dados II',
+        'Laboratório de Algoritmos e Estruturas de Dados II',
+        'Linguagens de Programação', 'Laboratório de Linguagens de Programação',
+        'Arquitetura e Organização de Computadores II',
+        'Laboratório de Arquitetura e Organização de Computadores II'],
+    5: ['Modelagem e Desenvolvimento de Software', 'Banco de Dados I', 'Linguagens Formais e Autômatos',
+        'Princípios de Comunicação de Dados',
+        'Álgebra Linear', 'Laboratório de Banco de Dados I', 'Laboratório de Modelagem e Desenvolvimento de Software'],
+    6: ['Engenharia de Software I', 'Laboratório de Engenharia de Software I', 'Redes de Computadores I',
+        'Laboratório de Redes de Computadores I',
+        'Sistemas Operacionais', 'Laboratório de Sistemas Operacionais', 'Controle de Sistemas Dinâmicos',
+        'Laboratório de Controle de Sistemas Dinâmicos'],
+    7: ['Inteligência Artificial', 'Laboratório de Inteligência Artificial', 'Compiladores',
+        'Psicologia Aplicada às Organizações',
+        'Otimização I', 'Controle Digital de Sistemas Dinâmicos',
+        'Laboratório de Controle Digital de Sistemas Dinâmicos'],
+    8: ['Interação Humano-Computador', 'Sistemas Distribuídos', 'Otimização II', 'Introdução à Administração',
+        'Inteligência Computacional I'],
+    9: ['Orientação de Trabalho de Conclusão de Curso I', 'Contexto Social e Engenharia de Computação',
+        'Introdução à Sociologia', 'Organização Empresarial', 'Metodologia de Pesquisa'],
+    10: ['Orientação de Trabalho de Conclusão de Curso II', 'Orientação de Estágio Supervisionado']}
+
+EMPTY_TABLES = ['Cálculo I', 'Geometria Analítica e Álgebra Vetorial', 'Matemática Discreta',
+                'Português Instrumental', 'Introdução à Engenharia de Computação',
+                'Metodologia Científica', 'Educação Corporal e Formação Humana',
+                'Filosofia da Tecnologia', 'Inglês Instrumental I']
+
+ONE_LINE_TABLES = ['Laboratório de Automação de Processos Contínuos', 'Métodos Numéricos Computacionais Avançados',
+                   'Otimização Combinatória']

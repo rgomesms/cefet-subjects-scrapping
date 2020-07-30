@@ -1,1012 +1,1622 @@
 {
   "algebra_linear": {
     "nome": "Álgebra Linear",
+    "periodo": 5,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Cálculo II",
+      "Geometria Analítica e Álgebra Vetorial"
+    ],
+    "co-requisitos": []
   },
   "algoritmos_e_estruturas_de_dados_i": {
     "nome": "Algoritmos e Estruturas de Dados I",
+    "periodo": 3,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Laboratório de Programação de Computadores II",
+      "Programação de Computadores II"
+    ],
+    "co-requisitos": [
+      "Laboratório de Algoritmos e Estruturas de Dados I"
+    ]
   },
   "algoritmos_e_estruturas_de_dados_ii": {
     "nome": "Algoritmos e Estruturas de Dados II",
+    "periodo": 4,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Algoritmos e Estruturas de Dados I",
+      "Laboratório de Algoritmos e Estruturas de Dados I"
+    ],
+    "co-requisitos": [
+      "Laboratório de Algoritmos e Estruturas de Dados II"
+    ]
   },
   "arquitetura_e_organizacao_de_computadores_i": {
     "nome": "Arquitetura e Organização de Computadores I",
+    "periodo": 3,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Laboratório de Sistemas Digitais para Computação",
+      "Sistemas Digitais para Computação"
+    ],
+    "co-requisitos": [
+      "Laboratório de Arquitetura e Organização de",
+      "Computadores I"
+    ]
   },
   "arquitetura_e_organizacao_de_computadores_ii": {
     "nome": "Arquitetura e Organização de Computadores II",
+    "periodo": 4,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Arquitetura e Organização de Computadores I",
+      "Laboratório de Arquitetura e Organização de",
+      "Computadores I"
+    ],
+    "co-requisitos": [
+      "Laboratório de Arquitetura e Organização de",
+      "Computadores II"
+    ]
   },
   "arquitetura_e_organizacao_de_computadores_iii": {
     "nome": "Arquitetura e Organização de Computadores III",
+    "periodo": null,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [
+      "Arquitetura e Organização de Computadores II",
+      "Laboratório de Arquitetura e Organização de",
+      "Computadores II"
+    ],
+    "co-requisitos": []
   },
   "automacao_de_processos_continuos": {
     "nome": "Automação de Processos Contínuos",
+    "periodo": null,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [
+      "Controle de Sistemas Dinâmicos",
+      "Laboratório de Controle de Sistemas Dinâmicos"
+    ],
+    "co-requisitos": [
+      "Laboratório de Automação de Processos Contínuos"
+    ]
   },
   "automacao_de_processos_de_manufatura": {
     "nome": "Automação de Processos de Manufatura",
+    "periodo": null,
     "horas": {
       "teoria": 30,
       "pratica": 30,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [
+      "Laboratório de Automação de Processos Contínuos",
+      "Automação de Processos Contínuos"
+    ],
+    "co-requisitos": []
   },
   "banco_de_dados_i": {
     "nome": "Banco de Dados I",
+    "periodo": 5,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Algoritmos e Estruturas de Dados II",
+      "Laboratório de Algoritmos e Estruturas de Dados II"
+    ],
+    "co-requisitos": [
+      "Laboratório de Banco de Dados I"
+    ]
   },
   "banco_de_dados_ii": {
     "nome": "Banco de Dados II",
+    "periodo": null,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [
+      "Laboratório de Banco de Dados I",
+      "Banco de Dados I"
+    ],
+    "co-requisitos": []
   },
   "calculo_i": {
     "nome": "Cálculo I",
+    "periodo": 1,
     "horas": {
       "teoria": 90,
       "pratica": 0,
       "total": 90
     },
     "creditos": 6,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [],
+    "co-requisitos": []
   },
   "calculo_ii": {
     "nome": "Cálculo II",
+    "periodo": 2,
     "horas": {
       "teoria": 90,
       "pratica": 0,
       "total": 90
     },
     "creditos": 6,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Cálculo I"
+    ],
+    "co-requisitos": []
   },
   "calculo_iii": {
     "nome": "Cálculo III",
+    "periodo": 3,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Cálculo II"
+    ],
+    "co-requisitos": []
   },
   "calculo_iv": {
     "nome": "Cálculo IV",
+    "periodo": 4,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Cálculo III"
+    ],
+    "co-requisitos": []
   },
   "compiladores": {
     "nome": "Compiladores",
+    "periodo": 7,
     "horas": {
       "teoria": 30,
       "pratica": 30,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Algoritmos e Estruturas de Dados II",
+      "Laboratório de Algoritmos e Estruturas de Dados II",
+      "Laboratório de Linguagens de Programação"
+    ],
+    "co-requisitos": []
   },
   "computacao_evolucionaria": {
     "nome": "Computação Evolucionária",
+    "periodo": null,
     "horas": {
       "teoria": 30,
       "pratica": 30,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [
+      "Inteligência Artificial",
+      "Laboratório de Inteligência Artificial"
+    ],
+    "co-requisitos": []
   },
   "computacao_grafica": {
     "nome": "Computação Gráfica",
+    "periodo": 2,
     "horas": {
       "teoria": 30,
       "pratica": 30,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Geometria Analítica e Álgebra Vetorial",
+      "Laboratório de Programação de Computadores I",
+      "Programação de Computadores I"
+    ],
+    "co-requisitos": [
+      "Cálculo II"
+    ]
   },
   "contexto_social_e_engenharia_de_computacao": {
     "nome": "Contexto Social e Engenharia de Computação",
+    "periodo": 9,
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "O aluno deverá ter integralizado 1950 horas ou,",
+      "equivalentemente, 130 créditos, no curso."
+    ],
+    "co-requisitos": []
   },
   "controle_de_sistemas_dinamicos": {
     "nome": "Controle de Sistemas Dinâmicos",
+    "periodo": 6,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Métodos Numéricos Computacionais"
+    ],
+    "co-requisitos": [
+      "Laboratório de Controle de Sistemas Dinâmicos"
+    ]
   },
   "controle_digital_de_sistemas_dinamicos": {
     "nome": "Controle Digital de Sistemas Dinâmicos",
+    "periodo": 7,
     "horas": {
       "teoria": 30,
       "pratica": 30,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Controle de Sistemas Dinâmicos",
+      "Laboratório de Controle de Sistemas Dinâmicos"
+    ],
+    "co-requisitos": [
+      "Laboratório de Controle Digital de Sistemas",
+      "Dinâmicos"
+    ]
   },
   "educacao_corporal_e_formacao_humana": {
     "nome": "Educação Corporal e Formação Humana",
+    "periodo": null,
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [],
+    "co-requisitos": []
   },
   "engenharia_de_software_i": {
     "nome": "Engenharia de Software I",
+    "periodo": 6,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Laboratório de Modelagem e Desenvolvimento de",
+      "Software",
+      "Modelagem e Desenvolvimento de Software"
+    ],
+    "co-requisitos": [
+      "Laboratório de Engenharia de Software I"
+    ]
   },
   "engenharia_de_software_ii": {
     "nome": "Engenharia de Software II",
+    "periodo": null,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [
+      "Engenharia de Software I",
+      "Laboratório de Engenharia de Software I"
+    ],
+    "co-requisitos": []
   },
   "estatistica": {
     "nome": "Estatística",
+    "periodo": null,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [],
+    "co-requisitos": [
+      "Cálculo II"
+    ]
   },
   "filosofia_da_tecnologia": {
     "nome": "Filosofia da Tecnologia",
+    "periodo": 2,
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [],
+    "co-requisitos": []
   },
   "fisica_experimental_i": {
     "nome": "Física Experimental I",
+    "periodo": 3,
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [],
+    "co-requisitos": [
+      "Física II"
+    ]
   },
   "fisica_experimental_ii": {
     "nome": "Física Experimental II",
+    "periodo": 4,
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Física Experimental I"
+    ],
+    "co-requisitos": [
+      "Física III"
+    ]
   },
   "fisica_i": {
     "nome": "Física I",
+    "periodo": 2,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Cálculo I"
+    ],
+    "co-requisitos": []
   },
   "fisica_ii": {
     "nome": "Física II",
+    "periodo": 3,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Cálculo II",
+      "Física I"
+    ],
+    "co-requisitos": []
   },
   "fisica_iii": {
     "nome": "Física III",
+    "periodo": 4,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Física II"
+    ],
+    "co-requisitos": []
   },
   "geometria_analitica_e_algebra_vetorial": {
     "nome": "Geometria Analítica e Álgebra Vetorial",
+    "periodo": 1,
     "horas": {
       "teoria": 90,
       "pratica": 0,
       "total": 90
     },
     "creditos": 6,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [],
+    "co-requisitos": []
   },
   "gestao_ambiental": {
     "nome": "Gestão Ambiental",
+    "periodo": null,
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [
+      "O aluno deverá ter integralizado 1950 horas ou,",
+      "equivalentemente, 130 créditos, no curso."
+    ],
+    "co-requisitos": []
   },
   "ingles_instrumental_i": {
     "nome": "Inglês Instrumental I",
+    "periodo": 2,
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [],
+    "co-requisitos": []
   },
   "ingles_instrumental_ii": {
     "nome": "Inglês Instrumental II",
+    "periodo": null,
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [
+      "Inglês Instrumental I"
+    ],
+    "co-requisitos": []
   },
   "ingles_instrumental_iii": {
     "nome": "Inglês Instrumental III",
+    "periodo": null,
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [
+      "Inglês Instrumental II"
+    ],
+    "co-requisitos": []
   },
   "ingles_instrumental_iv": {
     "nome": "Inglês Instrumental IV",
+    "periodo": null,
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [
+      "Inglês Instrumental III"
+    ],
+    "co-requisitos": []
   },
   "instrumentacao": {
     "nome": "Instrumentação",
+    "periodo": null,
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [
+      "Física III"
+    ],
+    "co-requisitos": [
+      "Laboratório de Instrumentação"
+    ]
   },
   "inteligencia_artificial": {
     "nome": "Inteligência Artificial",
+    "periodo": 7,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Álgebra Linear",
+      "Algoritmos e Estruturas de Dados II",
+      "Laboratório de Algoritmos e Estruturas de Dados II"
+    ],
+    "co-requisitos": [
+      "Laboratório de Inteligência Artificial"
+    ]
   },
   "inteligencia_computacional_i": {
     "nome": "Inteligência Computacional I",
+    "periodo": 8,
     "horas": {
       "teoria": 60,
       "pratica": 30,
       "total": 90
     },
     "creditos": 6,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Inteligência Artificial",
+      "Laboratório de Inteligência Artificial"
+    ],
+    "co-requisitos": []
   },
   "inteligencia_computacional_ii": {
     "nome": "Inteligência Computacional II",
+    "periodo": null,
     "horas": {
       "teoria": 30,
       "pratica": 30,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [
+      "Inteligência Artificial",
+      "Laboratório de Inteligência Artificial"
+    ],
+    "co-requisitos": []
   },
   "inteligencia_computacional_para_otimizacao": {
     "nome": "Inteligência Computacional para Otimização",
+    "periodo": null,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [
+      "Otimização I"
+    ],
+    "co-requisitos": []
   },
   "interacao_humano-computador": {
     "nome": "Interação Humano-Computador",
+    "periodo": 8,
     "horas": {
       "teoria": 45,
       "pratica": 15,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Laboratório de Modelagem e Desenvolvimento de",
+      "Software",
+      "Modelagem e Desenvolvimento de Software"
+    ],
+    "co-requisitos": []
   },
   "introducao_a_administracao": {
     "nome": "Introdução à Administração",
+    "periodo": 8,
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "O aluno deverá ter integralizado 1950 horas ou,",
+      "equivalentemente, 130 créditos, no curso."
+    ],
+    "co-requisitos": []
   },
   "introducao_a_economia": {
     "nome": "Introdução à Economia",
+    "periodo": null,
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [
+      "O aluno deverá ter integralizado 1950 horas ou,",
+      "equivalentemente, 130 créditos, no curso."
+    ],
+    "co-requisitos": []
   },
   "introducao_a_engenharia_de_computacao": {
     "nome": "Introdução à Engenharia de Computação",
+    "periodo": null,
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 3,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [],
+    "co-requisitos": []
   },
   "introducao_a_fisica_moderna": {
     "nome": "Introdução à Física Moderna",
+    "periodo": null,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [
+      "Física III"
+    ],
+    "co-requisitos": []
   },
   "introducao_a_sociologia": {
     "nome": "Introdução à Sociologia",
+    "periodo": 9,
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "O aluno deverá ter integralizado 1950 horas ou,",
+      "equivalentemente, 130 créditos, no curso."
+    ],
+    "co-requisitos": []
   },
   "introducao_ao_direito": {
     "nome": "Introdução ao Direito",
+    "periodo": null,
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [
+      "O aluno deverá ter integralizado 1950 horas ou,",
+      "equivalentemente, 130 créditos, no curso."
+    ],
+    "co-requisitos": []
   },
   "laboratorio_de_algoritmos_e_estruturas_de_dados_i": {
     "nome": "Laboratório de Algoritmos e Estruturas de Dados I",
+    "periodo": 3,
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Laboratório de Programação de Computadores II"
+    ],
+    "co-requisitos": [
+      "Algoritmos e Estruturas de Dados I"
+    ]
   },
   "laboratorio_de_algoritmos_e_estruturas_de_dados_ii": {
     "nome": "Laboratório de Algoritmos e Estruturas de Dados II",
+    "periodo": 4,
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Laboratório de Algoritmos e Estruturas de Dados I"
+    ],
+    "co-requisitos": [
+      "Algoritmos e Estruturas de Dados II"
+    ]
   },
   "laboratorio_de_arquitetura_e_organizacao_de_computadores_i": {
     "nome": "Laboratório de Arquitetura e Organização de Computadores I",
+    "periodo": 3,
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Laboratório de Sistemas Digitais para Computação"
+    ],
+    "co-requisitos": [
+      "Arquitetura e Organização de Computadores I"
+    ]
   },
   "laboratorio_de_arquitetura_e_organizacao_de_computadores_ii": {
     "nome": "Laboratório de Arquitetura e Organização de Computadores II",
+    "periodo": 4,
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Laboratório de Arquitetura e Organização de",
+      "Computadores I"
+    ],
+    "co-requisitos": [
+      "Arquitetura e Organização de Computadores II"
+    ]
   },
   "laboratorio_de_automacao_de_processos_continuos": {
     "nome": "Laboratório de Automação de Processos Contínuos",
+    "periodo": null,
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [],
+    "co-requisitos": [
+      "Automação de Processos Contínuos"
+    ]
   },
   "laboratorio_de_banco_de_dados_i": {
     "nome": "Laboratório de Banco de Dados I",
+    "periodo": 5,
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [],
+    "co-requisitos": [
+      "Banco de Dados I"
+    ]
   },
   "laboratorio_de_controle_de_sistemas_dinamicos": {
     "nome": "Laboratório de Controle de Sistemas Dinâmicos",
+    "periodo": 6,
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [],
+    "co-requisitos": [
+      "Controle de Sistemas Dinâmicos"
+    ]
   },
   "laboratorio_de_controle_digital_de_sistemas_dinamicos": {
     "nome": "Laboratório de Controle Digital de Sistemas Dinâmicos",
+    "periodo": 7,
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [],
+    "co-requisitos": [
+      "Controle Digital de Sistemas Dinâmicos"
+    ]
   },
   "laboratorio_de_engenharia_de_software_i": {
     "nome": "Laboratório de Engenharia de Software I",
+    "periodo": 6,
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [],
+    "co-requisitos": [
+      "Engenharia de Software I"
+    ]
   },
   "laboratorio_de_instrumentacao": {
     "nome": "Laboratório de Instrumentação",
+    "periodo": null,
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [],
+    "co-requisitos": [
+      "Instrumentação"
+    ]
   },
   "laboratorio_de_inteligencia_artificial": {
     "nome": "Laboratório de Inteligência Artificial",
+    "periodo": 7,
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [],
+    "co-requisitos": [
+      "Inteligência Artificial"
+    ]
   },
   "laboratorio_de_linguagens_de_programacao": {
     "nome": "Laboratório de Linguagens de Programação",
+    "periodo": 4,
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Laboratório de Algoritmos e Estruturas de Dados I"
+    ],
+    "co-requisitos": [
+      "Linguagens de Programação"
+    ]
   },
   "laboratorio_de_microprocessadores_e_microcontroladores": {
     "nome": "Laboratório de Microprocessadores e Microcontroladores",
+    "periodo": null,
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [],
+    "co-requisitos": [
+      "Microprocessadores e Microcontroladores"
+    ]
   },
   "laboratorio_de_modelagem_e_desenvolvimento_de_software": {
     "nome": "Laboratório de Modelagem e Desenvolvimento de Software",
+    "periodo": 5,
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [],
+    "co-requisitos": [
+      "Modelagem e Desenvolvimento de Software"
+    ]
   },
   "laboratorio_de_programacao_de_computadores_i": {
     "nome": "Laboratório de Programação de Computadores I",
+    "periodo": null,
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [],
+    "co-requisitos": [
+      "Programação de Computadores I"
+    ]
   },
   "laboratorio_de_programacao_de_computadores_ii": {
     "nome": "Laboratório de Programação de Computadores II",
+    "periodo": 2,
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [],
+    "co-requisitos": [
+      "Programação de Computadores II"
+    ]
   },
   "laboratorio_de_quimica": {
     "nome": "Laboratório de Química",
+    "periodo": null,
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [],
+    "co-requisitos": [
+      "Química"
+    ]
   },
   "laboratorio_de_redes_de_computadores_i": {
     "nome": "Laboratório de Redes de Computadores I",
+    "periodo": 6,
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [],
+    "co-requisitos": [
+      "Redes de Computadores I"
+    ]
   },
   "laboratorio_de_sistemas_digitais_para_computacao": {
     "nome": "Laboratório de Sistemas Digitais para Computação",
+    "periodo": null,
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [],
+    "co-requisitos": [
+      "Sistemas Digitais para Computação"
+    ]
   },
   "laboratorio_de_sistemas_operacionais": {
     "nome": "Laboratório de Sistemas Operacionais",
+    "periodo": 6,
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [],
+    "co-requisitos": [
+      "Sistemas Operacionais"
+    ]
   },
   "linguagens_de_programacao": {
     "nome": "Linguagens de Programação",
+    "periodo": 4,
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 4,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Laboratório de Programação de Computadores II",
+      "Programação de Computadores II"
+    ],
+    "co-requisitos": [
+      "Laboratório de Linguagens de Programação"
+    ]
   },
   "linguagens_formais_e_automatos": {
     "nome": "Linguagens Formais e Autômatos",
+    "periodo": 5,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Laboratório de Linguagens de Programação",
+      "Linguagens de Programação",
+      "Matemática Discreta"
+    ],
+    "co-requisitos": []
   },
   "matematica_discreta": {
     "nome": "Matemática Discreta",
+    "periodo": 1,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [],
+    "co-requisitos": []
   },
   "metodologia_cientifica": {
     "nome": "Metodologia Científica",
+    "periodo": 1,
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [],
+    "co-requisitos": []
   },
   "metodologia_de_pesquisa": {
     "nome": "Metodologia de Pesquisa",
+    "periodo": 9,
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "O aluno deverá ter integralizado 2550 horas ou,",
+      "equivalentemente, 170 créditos, no curso."
+    ],
+    "co-requisitos": [
+      "Orientação de Trabalho de Conclusão de Curso I"
+    ]
   },
   "metodos_numericos_computacionais": {
     "nome": "Métodos Numéricos Computacionais",
+    "periodo": 3,
     "horas": {
       "teoria": 30,
       "pratica": 30,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Laboratório de Programação de Computadores II",
+      "Programação de Computadores II"
+    ],
+    "co-requisitos": [
+      "Cálculo III"
+    ]
   },
   "metodos_numericos_computacionais_avancados": {
     "nome": "Métodos Numéricos Computacionais Avançados",
+    "periodo": null,
     "horas": {
       "teoria": 30,
       "pratica": 30,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [
+      "Métodos Numéricos Computacionais"
+    ],
+    "co-requisitos": []
   },
   "microprocessadores_e_microcontroladores": {
     "nome": "Microprocessadores e Microcontroladores",
+    "periodo": null,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [
+      "Arquitetura e Organização de Computadores II",
+      "Laboratório de Arquitetura e Organização de",
+      "Computadores II"
+    ],
+    "co-requisitos": [
+      "Laboratório de Microprocessadores e",
+      "Microcontroladores"
+    ]
   },
   "modelagem_de_sistemas_dinamicos": {
     "nome": "Modelagem de Sistemas Dinâmicos",
+    "periodo": null,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [
+      "Métodos Numéricos Computacionais"
+    ],
+    "co-requisitos": [
+      "Cálculo IV"
+    ]
   },
   "modelagem_e_desenvolvimento_de_software": {
     "nome": "Modelagem e Desenvolvimento de Software",
+    "periodo": 5,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Laboratório de Linguagens de Programação",
+      "Linguagens de Programação"
+    ],
+    "co-requisitos": [
+      "Laboratório de Modelagem e Desenvolvimento de",
+      "Software"
+    ]
   },
   "organizacao_empresarial": {
     "nome": "Organização Empresarial",
+    "periodo": 9,
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "O aluno deverá ter integralizado 1950 horas ou,",
+      "equivalentemente, 130 créditos, no curso."
+    ],
+    "co-requisitos": []
   },
   "orientacao_de_estagio_supervisionado": {
     "nome": "Orientação de Estágio Supervisionado",
+    "periodo": 10,
     "horas": {
       "teoria": 0,
       "pratica": 30,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "O aluno deverá ter integralizado 2550 horas ou,",
+      "equivalentemente, 170 créditos, no curso."
+    ],
+    "co-requisitos": []
   },
   "orientacao_de_trabalho_de_conclusao_de_curso_i": {
     "nome": "Orientação de Trabalho de Conclusão de Curso I",
+    "periodo": 9,
     "horas": {
       "teoria": 0,
       "pratica": 15,
       "total": 15
     },
     "creditos": 1,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "O aluno deverá ter integralizado 3450 horas ou,",
+      "equivalentemente, 230 créditos, no curso."
+    ],
+    "co-requisitos": []
   },
   "orientacao_de_trabalho_de_conclusao_de_curso_ii": {
     "nome": "Orientação de Trabalho de Conclusão de Curso II",
+    "periodo": 10,
     "horas": {
       "teoria": 0,
       "pratica": 15,
       "total": 15
     },
     "creditos": 1,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Orientação de Trabalho de Conclusão de Curso I"
+    ],
+    "co-requisitos": []
   },
   "otimizacao_combinatoria": {
     "nome": "Otimização Combinatória",
+    "periodo": null,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [
+      "Otimização I"
+    ],
+    "co-requisitos": []
   },
   "otimizacao_i": {
     "nome": "Otimização I",
+    "periodo": 7,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Álgebra Linear",
+      "Algoritmos e Estruturas de Dados II",
+      "Laboratório de Algoritmos e Estruturas de Dados II"
+    ],
+    "co-requisitos": []
   },
   "otimizacao_ii": {
     "nome": "Otimização II",
+    "periodo": 8,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Otimização I"
+    ],
+    "co-requisitos": []
   },
   "portugues_instrumental": {
     "nome": "Português Instrumental",
+    "periodo": 1,
     "horas": {
       "teoria": 15,
       "pratica": 15,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [],
+    "co-requisitos": []
   },
   "principios_de_comunicacao_de_dados": {
     "nome": "Princípios de Comunicação de Dados",
+    "periodo": 5,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Física III",
+      "Laboratório de Sistemas Digitais para Computação",
+      "Sistemas Digitais para Computação"
+    ],
+    "co-requisitos": []
   },
   "programacao_de_computadores_i": {
     "nome": "Programação de Computadores I",
+    "periodo": 1,
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [],
+    "co-requisitos": [
+      "Laboratório de Programação de Computadores I"
+    ]
   },
   "programacao_de_computadores_ii": {
     "nome": "Programação de Computadores II",
+    "periodo": 2,
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Laboratório de Programação de Computadores I",
+      "Programação de Computadores I"
+    ],
+    "co-requisitos": [
+      "Laboratório de Programação de Computadores II"
+    ]
   },
   "psicologia_aplicada_as_organizacoes": {
     "nome": "Psicologia Aplicada às Organizações",
+    "periodo": 7,
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "O aluno deverá ter integralizado 1950 horas ou,",
+      "equivalentemente, 130 créditos, no curso."
+    ],
+    "co-requisitos": []
   },
   "quimica": {
     "nome": "Química",
+    "periodo": null,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [],
+    "co-requisitos": [
+      "Laboratório de Química"
+    ]
   },
   "redes_de_computadores_i": {
     "nome": "Redes de Computadores I",
+    "periodo": 6,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Princípios de Comunicação de Dados"
+    ],
+    "co-requisitos": [
+      "Laboratório de Redes de Computadores I"
+    ]
   },
   "redes_de_computadores_ii": {
     "nome": "Redes de Computadores II",
+    "periodo": null,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [
+      "Laboratório de Redes de Computadores I",
+      "Redes de Computadores I"
+    ],
+    "co-requisitos": []
   },
   "robotica": {
     "nome": "Robótica",
+    "periodo": null,
     "horas": {
       "teoria": 30,
       "pratica": 30,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [
+      "Controle de Sistemas Dinâmicos",
+      "Física II",
+      "Laboratório de Controle de Sistemas Dinâmicos"
+    ],
+    "co-requisitos": []
   },
   "sistemas_bio-inspirados": {
     "nome": "Sistemas Bio-inspirados",
+    "periodo": null,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [
+      "Inteligência Artificial",
+      "Laboratório de Inteligência Artificial"
+    ],
+    "co-requisitos": []
   },
   "sistemas_de_tempo_real": {
     "nome": "Sistemas de Tempo Real",
+    "periodo": null,
     "horas": {
       "teoria": 30,
       "pratica": 30,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [
+      "Laboratório de Modelagem e Desenvolvimento de",
+      "Software",
+      "Modelagem e Desenvolvimento de Software"
+    ],
+    "co-requisitos": []
   },
   "sistemas_digitais_para_computacao": {
     "nome": "Sistemas Digitais para Computação",
+    "periodo": 2,
     "horas": {
       "teoria": 30,
       "pratica": 0,
       "total": 30
     },
     "creditos": 2,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Laboratório de Programação de Computadores I",
+      "Programação de Computadores I"
+    ],
+    "co-requisitos": [
+      "Laboratório de Sistemas Digitais para Computação"
+    ]
   },
   "sistemas_distribuidos": {
     "nome": "Sistemas Distribuídos",
+    "periodo": 8,
     "horas": {
       "teoria": 30,
       "pratica": 30,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Sistemas Operacionais",
+      "Laboratório de Sistemas Operacionais"
+    ],
+    "co-requisitos": []
   },
   "sistemas_multimidia": {
     "nome": "Sistemas Multimídia",
+    "periodo": null,
     "horas": {
       "teoria": 30,
       "pratica": 30,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [
+      "Computação Gráfica"
+    ],
+    "co-requisitos": []
   },
   "sistemas_operacionais": {
     "nome": "Sistemas Operacionais",
+    "periodo": 6,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Obrigatória"
+    "natureza": "Obrigatória",
+    "pre-requisitos": [
+      "Arquitetura e Organização de Computadores II",
+      "Laboratório de Arquitetura e Organização de",
+      "Computadores II"
+    ],
+    "co-requisitos": [
+      "Laboratório de Sistemas Operacionais"
+    ]
   },
   "variaveis_complexas": {
     "nome": "Variáveis Complexas",
+    "periodo": null,
     "horas": {
       "teoria": 60,
       "pratica": 0,
       "total": 60
     },
     "creditos": 4,
-    "natureza": "Optativa"
+    "natureza": "Optativa",
+    "pre-requisitos": [],
+    "co-requisitos": [
+      "Cálculo IV"
+    ]
   }
 }
